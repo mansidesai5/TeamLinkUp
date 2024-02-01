@@ -168,7 +168,6 @@ input[type=password],
 input[type=tel],
 button,
 button[type=submit] {
-    -moz-appearance: none;
     box-shadow: none !important;
 }
 
@@ -244,7 +243,6 @@ div#preloader {
     height: 80px;
     transition: all 0.5s;
     z-index: 997;
-    transition: all 0.5s;
     background: rgba(0, 0, 0, 0.5);
 }
 
@@ -776,7 +774,7 @@ div#preloader {
 # Team
 --------------------------------------------------------------*/
 
-. .email-news {
+.email-news {
     display: block;
     margin: 30px 0;
     overflow: hidden;
@@ -988,6 +986,8 @@ div#preloader {
 --------------------------------------------------------------*/
 
 .pst-content {
+    display: inline-block;
+    width: 65%;
     padding-left: 10px;
 }
 
@@ -1101,10 +1101,6 @@ div#preloader {
     width: 100%;
 }
 
-.project-dec h4 {
-    margin-bottom: 5px;
-}
-
 .project-dec h4:hover {
     color: #fff;
 }
@@ -1117,6 +1113,7 @@ div#preloader {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 800;
+    margin-bottom: 5px;
 }
 
 .project-dec span {
@@ -1570,29 +1567,10 @@ div#preloader {
 .blog-btn {
     border-bottom: 1px dotted #444;
     color: #444;
-    text-decoration: none;
-}
-
-.blog-btn {
-    border-bottom: 1px dotted #444;
-    color: #444;
     display: inline-block;
     padding: 0 1px 5px 0;
     position: relative;
     text-decoration: none;
-}
-
-.blog-btn {
-    position: relative;
-}
-
-.blog-btn::after {
-    content: "\f178";
-    font-family: fontawesome;
-    position: absolute;
-    right: -20px;
-    top: 1px;
-    transition: all 0.3s ease 0s;
 }
 
 .blog-btn:hover::after {
@@ -1763,15 +1741,8 @@ div#preloader {
 
 .post-img {
     display: inline-block;
-    float: left;
     padding: 0 5px;
     width: 35%;
-}
-
-.pst-content {
-    display: inline-block;
-    float: left;
-    width: 65%;
 }
 
 .pst-content p a:hover,
@@ -1906,7 +1877,6 @@ div#preloader {
 
 .sharing-icon {
     display: inline-block;
-    float: right;
     padding: 13px 10px;
 }
 
@@ -1982,7 +1952,6 @@ h3.comment-reply-title {
 
 .author-avatar {
     display: inline-block;
-    float: left;
     width: 10%;
 }
 
@@ -2143,10 +2112,8 @@ span.email-notes {
     text-align: center;
     width: 40px;
     border-radius: 50%;
-    display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 0;
 }
 
 .footer-icons ul li a i {
@@ -2500,15 +2467,15 @@ span.email-notes {
 }
 
 .register-btn {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* /* text-align: center !important; */
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 30px;
     padding-right: 40px;
-    /* height: 1-px; */
-    /* margin-top: 30px; */
+    height: 50px;
 }
 
 .register-btn :hover {
-    /* padding: 50px; */
     color: black !important;
 }
 
@@ -2518,7 +2485,5 @@ span.email-notes {
 }
 
 .register-list :hover {
-    /* margin-left: 40px; */
     color: black !important;
-    /* background-color: #3EC1D5; */
 }
