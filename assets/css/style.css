@@ -2498,3 +2498,27 @@ span.email-notes {
         padding: 0;
     }
 }
+
+.register-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    /* height: 1-px; */
+    /* margin-top: 30px; */
+}
+
+.register-btn :hover {
+    /* padding: 50px; */
+    color: black !important;
+}
+
+.register-list {
+    margin-left: 40px;
+    color: black !important;
+}
+
+.register-list :hover {
+    /* margin-left: 40px; */
+    color: black !important;
+    /* background-color: #3EC1D5; */
+}
