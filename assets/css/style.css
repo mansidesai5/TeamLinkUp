@@ -2469,10 +2469,8 @@ span.email-notes {
 .register-btn {
     /* /* text-align: center !important; */
     width: 100%;
-    padding-top: 3px;
-    padding-bottom: 30px;
-    padding-right: 40px;
-    height: 50px;
+    padding-right: 30px;
+    padding-left: 0;
 }
 
 .register-btn :hover {
@@ -2482,6 +2480,7 @@ span.email-notes {
 .register-list {
     margin-left: 40px;
     color: black !important;
+    text-align: center;
 }
 
 .register-list :hover {
