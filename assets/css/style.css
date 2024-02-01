@@ -725,10 +725,10 @@ div#preloader {
 
 
 /*--------------------------------------------------------------
-# Services
+# features
 --------------------------------------------------------------*/
 
-.services-icon {
+.features-icon {
     color: #444;
     display: inline-block;
     font-size: 36px;
@@ -736,17 +736,17 @@ div#preloader {
     margin-bottom: 20px;
 }
 
-.section-headline.services-head>h2 {
+.section-headline.features-head>h2 {
     margin-bottom: 25px;
 }
 
-.services-details {
+.features-details {
     padding-top: 40px;
     transition: all 0.5s ease 0s;
 }
 
-.services-details:hover h4,
-.services-details:hover .services-icon {
+.features-details:hover h4,
+.features-details:hover .features-icon {
     color: #3EC1D5;
 }
 
@@ -758,13 +758,13 @@ div#preloader {
     color: #333;
 }
 
-.single-services>h4 {
+.single-features>h4 {
     color: #444;
     font-size: 24px;
     font-weight: 500;
 }
 
-.single-services>p {
+.single-features>p {
     color: #333;
     font-size: 14px;
 }
