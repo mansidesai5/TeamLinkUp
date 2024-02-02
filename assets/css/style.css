@@ -2461,5 +2461,11 @@ span.email-notes {
 }
 
 .register-list :hover {
-  color: black !important;
+  color: rgb(16, 0, 0) !important;
+}
+.btn2 {
+  padding-top: 20px;
+  width: 280px;
+  background-color: #3ec1d5;
+  color: black;
 }
