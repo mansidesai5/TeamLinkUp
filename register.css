@@ -7,26 +7,28 @@
  }
  
  .image {
-     background-image: url('assets/img/hero-carousel/3.jpg');
+     background-image: url('assets/img/hero-carousel/2.jpg');
  }
  
  .register-container {
      height: 110vh;
-     width: 50%;
-     border: 1px solid rgba(169, 227, 189, 0.447);
+     width: 40%;
+     /* border: 1px solid rgba(169, 227, 189, 0.447); */
      padding: 40px 0px 40px 15px;
-     box-shadow: 0px 0px 5px grey;
+     /* box-shadow: 0px 0px 5px grey; */
      background-size: cover;
-     border-radius: 100px;
+     border-radius: 50px;
      transition: 0.3s;
-     background-color: rgb(221, 236, 236);
+     background-color: rgba(190, 211, 211, 0.6);
  }
  
  .title {
-     text-decoration: underline;
-     text-shadow: 0px 0px 5px grey;
+     text-decoration: none;
+     text-shadow: 0px 0px 2px grey;
      font-family: 'Times New Roman', Times, serif;
      font-weight: bold;
+     font-size: 35px;
+     color: black;
  }
  
  .button {
@@ -49,6 +51,15 @@
      padding-top: 15px;
  }
  
+ .backButton {
+     margin-right: 40px;
+ }
+ 
  .form-control {
      box-shadow: 0px 0px 5px grey;
+ }
+ 
+ .labelText {
+     color: black;
+     font-weight: 500;
  }
