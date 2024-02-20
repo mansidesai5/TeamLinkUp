@@ -2065,7 +2065,9 @@ span.email-notes {
 .footer-logo {
   padding-bottom: 20px;
 }
-
+.footer-logo a img {
+  box-shadow: none;
+}
 .footer-logo h2 {
   color: #222;
   padding: 0;
@@ -2073,10 +2075,6 @@ span.email-notes {
   font-size: 36px;
   font-weight: bold;
   line-height: 1;
-}
-
-.footer-logo h2 span {
-  color: #3ec1d5;
 }
 
 .footer-icons ul li {
